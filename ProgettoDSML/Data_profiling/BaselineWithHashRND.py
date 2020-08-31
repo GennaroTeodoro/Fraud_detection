@@ -8,7 +8,7 @@ from sklearn.metrics import average_precision_score
 from sklearn.metrics import roc_curve, auc
 from ProgettoDSML.util import *
 
-fraud_Dataset = pd.read_csv("C:\\Users\\Gennaro Teodoro\\Desktop\\PS_20174392719_1491204439457_log.csv", sep=',')
+fraud_Dataset = pd.read_csv("", sep=',')
 
 # Creiamo ora i dataset di training e di test
 # Andiamo ad aggiungere ora la colonna Id al dataset su cui andare a eseguire lo split del dataset

@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 from ProgettoDSML.util import *
 
-fraud_Dataset = pd.read_csv("C:\\Users\\Gennaro Teodoro\\Desktop\\PS_20174392719_1491204439457_log.csv", sep=',')
+fraud_Dataset = pd.read_csv("", sep=',')
 
 fraud_Dataset = resample(fraud_Dataset, 3)
 
